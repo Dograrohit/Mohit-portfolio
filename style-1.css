@@ -9,11 +9,11 @@
     --text-color-second: rgb(0, 0, 0);
     --text-color-third: rgb(68, 68, 68);
 
-    --first-color: rgb(255, 174, 0);
-    --first-color-hover: rgb(255, 153, 0);
+    --first-color: rgb(0, 153, 255);
+    --first-color-hover: rgb(15, 64, 197);
 
-    --second-color: rgb(255, 174, 0);
-    --third-color: rgb(192, 166, 49);
+    --second-color: rgb(15, 64, 197);
+    --third-color: rgb(0, 153, 255);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -222,7 +222,10 @@ nav{
     cursor: pointer;
     color: var(--text-color-second);
 }
-.icon:hover{
+.icon a{
+    text-decoration: none;
+}
+.icon a:hover{
     color: var(--first-color);
 }
 
